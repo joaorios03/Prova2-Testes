@@ -2,7 +2,7 @@ import { RegisterUserOnMailingList } from '../src/register-user-on-mailing-list'
 import { EmailNotificationService } from '../src/email-notification-service';
 import { UserRepository } from '../src/user-repository';
 
-// jest.mock('../src/user-repository');
+/*João Pedro Rios Carvalho - Teste de Sistemas(Desenvolvimento de Sistemas)*/
 
 describe('Register user on mailing list', () => {
     let userRepository: UserRepository
