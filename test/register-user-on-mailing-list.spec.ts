@@ -44,4 +44,11 @@ describe('Register user on mailing list', () => {
             name: "fulano de tal"
         })).toThrow('E-mail notification not sent');
     })
+
+    it('should execute without throw error (user is created)', function () {
+        expect(() => registerUserOnMailingList.execute({
+            email: "email@email.com",
+            name: "fulano de tal"
+        })).not.toThrow();
+    })
 })
